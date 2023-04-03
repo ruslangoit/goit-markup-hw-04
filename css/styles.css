@@ -177,7 +177,12 @@ text-transform: uppercase;
 
 /*--------- Hero----------- */
 .hero {
-    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), 
+    url(../image/people-office.jpg
+    );
+    background-size: cover;
+    background-color: #2E2F42;
     padding: 188px 0px;
 }
 .main-title {
@@ -192,7 +197,7 @@ text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: #2E2F42;
+   
 }
 .order-btn {
     padding: 16px 32px;
@@ -231,6 +236,14 @@ text-transform: uppercase;
         margin-right: auto;
         gap: 24px;
 }
+.svg-icons {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    
+}
 
 /* sectoin what we doing */
 .what-we-doing {
@@ -265,6 +278,48 @@ text-transform: uppercase;
     padding: 32px 16px;
     background: #FFFFFF;
     text-align: center;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.social-list-link:hover,
+.social-list-link:focus{
+    background-color: #D9D9D9
+}
+
+.social-list-link:hover .social-list-icom,
+.social-list-link:focus .social-list-icom {
+    fill: #D9D9D9;
+}
+
+/* customers */
+.customers {
+padding-top: 120px;
+padding-bottom: 120px;
+
+}
+.customers-list{
+    width: 1128px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.customers-item {
+
 }
 
 /* footer */
