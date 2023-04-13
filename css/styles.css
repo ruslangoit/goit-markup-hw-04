@@ -177,6 +177,8 @@ text-transform: uppercase;
 
 /*--------- Hero----------- */
 .hero {
+    width: 1440px;
+    margin: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
     url(../image/people-office.jpg
